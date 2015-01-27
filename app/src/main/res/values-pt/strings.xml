@@ -8,5 +8,7 @@
     <string name="segundo_numero">Segundo numero</string>
     <string name="soma">Soma</string>
     <string name="subtrcao">Subtração</string>
+    <string name="verifica_erro">verifica se todos os campos estão preenchidos e introduza apenas numeros</string>
+    <string name="resultado_op">O resultado é</string>
 
 </resources>

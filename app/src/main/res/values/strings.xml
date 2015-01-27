@@ -11,5 +11,7 @@
     <string name="multiplicacao">multiplication</string>
     <string name="divisao">Division</string>
     <string name="botao">calculate</string>
+    <string name="verifica_erro">Verify if all fields are fulfilled and make sure you have enter numbers</string>
+    <string name="resultado_op">The result is </string>
 
 </resources>

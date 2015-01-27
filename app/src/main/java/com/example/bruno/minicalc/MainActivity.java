@@ -68,7 +68,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
                 case R.id.somar:
                     res = num1 + num2;
-                    Toast.makeText(this,"O resultad é" + " " + res, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this,"O resultado é" + " " + res, Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.subtrair:
                     res = num1 - num2;

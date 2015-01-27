@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
 
+    //variavéis
     RadioGroup radgp;
     View btn;
     int verrdp;
@@ -59,6 +60,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
+        // codigo do botao calcular
         try {
         num1=Double.parseDouble(n1.getText().toString());
         num2=Double.parseDouble(n2.getText().toString());

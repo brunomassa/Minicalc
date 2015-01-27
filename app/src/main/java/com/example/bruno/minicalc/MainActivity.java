@@ -1,13 +1,10 @@
 package com.example.bruno.minicalc;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.webkit.WebView;
-import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.Toast;
@@ -29,7 +26,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         radgp=(RadioGroup) findViewById(R.id.rgp);
-        btn=(View)findViewById(R.id.button);
+        btn=findViewById(R.id.button);
         btn.setOnClickListener(this);
         n1=(EditText)findViewById(R.id.editText);
         n2=(EditText)findViewById(R.id.editText2);
@@ -71,7 +68,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
                 case R.id.somar:
                     res = num1 + num2;
-                    Toast.makeText(this,"O resultado é" + " " + res, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this,"O resultad é" + " " + res, Toast.LENGTH_SHORT).show();
                     break;
                 case R.id.subtrair:
                     res = num1 - num2;

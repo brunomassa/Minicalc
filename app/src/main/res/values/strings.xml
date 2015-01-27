@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Minicalc</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="primeiro_numero">First number</string>
+    <string name="segundo_numero">Second number</string>
+    <string name="soma">Sum</string>
+    <string name="subtrcao">Subtraction</string>
+    <string name="multiplicacao">multiplication</string>
+    <string name="divisao">Division</string>
+    <string name="botao">calculate</string>
+
+</resources>
